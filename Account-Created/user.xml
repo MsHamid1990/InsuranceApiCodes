@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="user" path="/api/v1/user" id="3d6ff44b-780b-4c26-93f3-034d2cbf0e75" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="3d6ff44b-780b-4c26-93f3-034d2cbf0e75fileName">user</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="PostUserMethod" id="02e364e1-ea05-41d6-82f1-78d84bfbc6b4" method="POST">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="3757466a-c824-4bc5-ade5-e44390a5889b" mediaType="application/json" postQueryString="false">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+      <con:environmentSpec>
+        <con:entry environmentId="8f47bdbb-fa15-45b3-ba0f-409787082cc0">
+          <con:authProfile>Bearer Token</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+  </con:method>
+</con:resource>

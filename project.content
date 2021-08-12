@@ -1,0 +1,9 @@
+Account-Created\user.xml
+Account-Created\v1.xml
+Account-Created\%2Fapi%2Fv1%2Fuser%2F%7Bid%7D.xml
+Regression-Test-Suite\Validate-Create-New-User.xml
+Regression-Test-Suite\ValidateGetUserTest.xml
+Regression-Test-Suite\Validate-Update-User.xml
+Regression-Test-Suite\Negative-Test-Authorization.xml
+Regression-Test-Suite\Validate-Update-User---Negative.xml
+Regression-Test-Suite\Negative-Test-Suite.xml
